@@ -1,0 +1,11 @@
+<!DOCTYPE HTML5>
+<html5>
+<head>
+</head>
+
+<body>
+  <canvas id="area" width="500" height="500">
+  </canvas>
+</body>
+
+</html5>
