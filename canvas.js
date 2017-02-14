@@ -1,8 +1,10 @@
 var canv= document.getElementById("area");
 var ctx= canv.getContext("2d"); 
 function drawRect(e){
-    canv.fillRect(e.getX(),e.getY(),20,20);
+    ctx.fillRect(e.clientX-65,e.clientY-10,20,20);
 }
 canv.addEventListener("click",drawRect)
 
-var button=document.get
+function clicked(){
+	ctx.clearRect(0,0,500,500);
+}
